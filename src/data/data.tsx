@@ -8,20 +8,14 @@ import {
 } from '@heroicons/react/24/outline';
 
 import FacebookIcon from '../components/Icon/FacebookIcon';
+import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.jpg';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import testimonialImage from '../images/testimonial.webp';
 import {
@@ -214,70 +208,71 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage1,
-  },
-  {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'HCTracker and EuroTech and Seriyeardim',
+    description: <p>
+      - Web App, SignIn / SignUp Multiple Role<br/>
+- Add devices by manufacturer<br/>
+- Sell devices by one role to another role<br/>
+- Json Parsing<br/>
+- Multiple File Upload/Update<br/>
+- Material Design
+
+    </p>,
+    url: 'http://hctracker-app.s3-website-us-east-1.amazonaws.com/#/sign-in',
     image: porfolioImage2,
   },
+  
   {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage3,
-  },
-  {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Mindcentral',
+    description: <p>
+    - Multiple Language<br/>
+    - Nodejs, Express, Mongodb database, Multer S3<br/>
+- Passport, SignIn/SignUp using social media<br/>
+</p>,
+    url: 'https://mindcentral.com/#/',
     image: porfolioImage7,
   },
   {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
+    title: 'Farm365',
+    description: <p>
+
+- Multiple Language<br/>
+- Multi Step signup<br/>
+- Implement aws amplify for signup, forgot and reset password etc<br/>
+- Implement barcode functionality for add products<br/>
+- Update theme(Light/Dark)<br/>
+- Graph for selling devices details<br/>
+- Create cloudformation<br/>
+- Create serverless apis lamda with graphql, dynamodb<br/>
+- CI/CD setup for run project in multiple aws account<br/>
+
+    </p>,
+    url: 'https://app.eyeoe.ch/',
+    image: porfolioImage4,
+  },
+  {
+    title: 'Survaybooker',
+    description: <p>
+    Manage all surveybooker detail<br/>
+- Email template<br/>
+- Manage all for CRUD operation using stepper flow<br/>
+- Inline editing using view detail
+</p>,
+    url: 'https://watsonssurveyors.surveybooker.co.uk/#/',
     image: porfolioImage8,
   },
   {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage10,
-  },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://reactresume.com',
-    image: porfolioImage11,
+    title: 'VReality',
+    description: <p>
+   - Create one shop or tour<br/>
+- Add hotspot for visite next section<br/>
+- When click product hotspot customer easily purchase product<br/>
+Ref links for make functionality:<br/>
+https://www.marzipano.net/demos.html<br/>
+https://kuula.co/help/floor-plan
+</p>,
+    url: 'https://vreality.ipangram.com/#/',
+    image: porfolioImage4,
   },
 ];
 
@@ -422,6 +417,11 @@ export const contact: ContactSection = {
       text: 'Vidhya Patel',
       href: 'https://in.linkedin.com/in/vidhya-patel-551b549a',
     },
+    {
+      type: ContactType.Github,
+      text: 'Vidhya Patel GitHub',
+      href: 'https://github.com/vidhya-patel-9',
+    },
   ],
 };
 
@@ -429,6 +429,7 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
+  {label: 'GitHub', Icon: GithubIcon, href: 'https://github.com/vidhya-patel-9'},
   {label: 'Facebook', Icon: FacebookIcon, href: 'https://www.facebook.com/vidhya.patel.315428'},
   // {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
   {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://in.linkedin.com/in/vidhya-patel-551b549a'},
