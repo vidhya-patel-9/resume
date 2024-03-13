@@ -47,7 +47,7 @@ export const SectionId = {
   About: 'about',
   Contact: 'contact',
   Projects: 'projects',
-  Resume: 'resume',
+  Education: 'education',
   Skills: 'skills',
   Stats: 'stats',
   Certificates: 'certificates',
@@ -275,7 +275,7 @@ export const portfolioItems: PortfolioItem[] = [
 ];
 
 /**
- * Resume section -- TODO: Standardize resume contact format or offer MDX
+ * Education section -- TODO: Standardize resume contact format or offer MDX
  */
 export const education: TimelineItem[] = [
   {

@@ -84,7 +84,7 @@ export interface PortfolioItem {
 }
 
 /**
- * Resume section
+ * Education section
  */
 export interface TimelineItem {
   date: string;
