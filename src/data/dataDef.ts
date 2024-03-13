@@ -74,7 +74,7 @@ export interface SkillGroup {
 }
 
 /**
- * Portfolio section
+ * Projects section
  */
 export interface PortfolioItem {
   title: string;

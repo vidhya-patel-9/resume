@@ -46,7 +46,7 @@ export const SectionId = {
   Hero: 'hero',
   About: 'about',
   Contact: 'contact',
-  Portfolio: 'portfolio',
+  Projects: 'projects',
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
@@ -65,7 +65,7 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a <strong className="text-stone-100">Senior Software Development Engineer</strong>, currently working
-        at <strong className="text-stone-100">Bridgenext</strong> helping build a site builder.
+        at <strong className="text-stone-100">Bridgenext</strong>
       </p>
       {/* <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
@@ -204,18 +204,18 @@ export const skills: SkillGroup[] = [
 ];
 
 /**
- * Portfolio section
+ * Projects section
  */
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'HCTracker and EuroTech and Seriyeardim',
     description: <p>
       - Web App, SignIn / SignUp Multiple Role<br/>
-- Add devices by manufacturer<br/>
-- Sell devices by one role to another role<br/>
-- Json Parsing<br/>
-- Multiple File Upload/Update<br/>
-- Material Design
+      - Add devices by manufacturer<br/>
+      - Sell devices by one role to another role<br/>
+      - Json Parsing<br/>
+      - Multiple File Upload/Update<br/>
+      - Material Design
 
     </p>,
     url: 'http://hctracker-app.s3-website-us-east-1.amazonaws.com/#/sign-in',
@@ -227,25 +227,23 @@ export const portfolioItems: PortfolioItem[] = [
     description: <p>
     - Multiple Language<br/>
     - Nodejs, Express, Mongodb database, Multer S3<br/>
-- Passport, SignIn/SignUp using social media<br/>
-</p>,
+    - Passport, SignIn/SignUp using social media<br/>
+    </p>,
     url: 'https://mindcentral.com/#/',
     image: porfolioImage7,
   },
   {
     title: 'Farm365',
     description: <p>
-
-- Multiple Language<br/>
-- Multi Step signup<br/>
-- Implement aws amplify for signup, forgot and reset password etc<br/>
-- Implement barcode functionality for add products<br/>
-- Update theme(Light/Dark)<br/>
-- Graph for selling devices details<br/>
-- Create cloudformation<br/>
-- Create serverless apis lamda with graphql, dynamodb<br/>
-- CI/CD setup for run project in multiple aws account<br/>
-
+    - Multiple Language<br/>
+    - Multi Step signup<br/>
+    - Implement aws amplify for signup, forgot and reset password etc<br/>
+    - Implement barcode functionality for add products<br/>
+    - Update theme(Light/Dark)<br/>
+    - Graph for selling devices details<br/>
+    - Create cloudformation<br/>
+    - Create serverless apis lamda with graphql, dynamodb<br/>
+    - CI/CD setup for run project in multiple aws account<br/>
     </p>,
     url: 'https://app.eyeoe.ch/',
     image: porfolioImage4,
@@ -253,11 +251,11 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Survaybooker',
     description: <p>
-    Manage all surveybooker detail<br/>
-- Email template<br/>
-- Manage all for CRUD operation using stepper flow<br/>
-- Inline editing using view detail
-</p>,
+    - Manage all surveybooker detail<br/>
+    - Email template<br/>
+    - Manage all for CRUD operation using stepper flow<br/>
+    - Inline editing using view detail
+  </p>,
     url: 'https://watsonssurveyors.surveybooker.co.uk/#/',
     image: porfolioImage8,
   },
@@ -265,11 +263,11 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'VReality',
     description: <p>
    - Create one shop or tour<br/>
-- Add hotspot for visite next section<br/>
-- When click product hotspot customer easily purchase product<br/>
-Ref links for make functionality:<br/>
-https://www.marzipano.net/demos.html<br/>
-https://kuula.co/help/floor-plan
+    - Add hotspot for visite next section<br/>
+    - When click product hotspot customer easily purchase product<br/>
+    Ref links for make functionality:<br/>
+    https://www.marzipano.net/demos.html<br/>
+    https://kuula.co/help/floor-plan
 </p>,
     url: 'https://vreality.ipangram.com/#/',
     image: porfolioImage4,
