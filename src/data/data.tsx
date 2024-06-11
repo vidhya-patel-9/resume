@@ -94,8 +94,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Have a good experience with computers, programs and coding from childhood. Last 2.5 years working at home
-  on different web-projects around the world.`,
+  description: `Experienced developer with 5+ years of expertise in programming languages and software development frameworks, committed to continuous learning and delivering exceptional results.`,
   aboutItems: [
     {label: 'Location', text: 'Gujarat, IN', Icon: MapIcon},
     // {label: 'Age', text: '29', Icon: CalendarIcon},
