@@ -64,8 +64,8 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a <strong className="text-stone-100">Senior Software Development Engineer</strong>, currently working
-        at <strong className="text-stone-100">Bridgenext</strong>
+        I'm a <strong className="text-stone-100">Senior Software Engineer</strong>, currently working
+        at <strong className="text-stone-100">Randstad Digital (Client: Walmart)</strong>
       </p>
       {/* <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
@@ -94,14 +94,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Experienced developer with 5+ years of expertise in programming languages and software development frameworks, committed to continuous learning and delivering exceptional results.`,
+  description: `Experienced developer with 6+ years of expertise in programming languages and software development frameworks, committed to continuous learning and delivering exceptional results.`,
   aboutItems: [
-    {label: 'Location', text: 'Gujarat, IN', Icon: MapIcon},
+    {label: 'Location', text: 'Bengaluru, KA', Icon: MapIcon},
     // {label: 'Age', text: '29', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Indian / Hindu', Icon: FlagIcon},
     {label: 'Interests', text: 'Drawing, Learning, Travelling', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Uka Tarsadia', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Bridgenext', Icon: BuildingOffice2Icon},
+    {label: 'Employment', text: 'Randstad Digital (Client: Walmart)', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -148,11 +148,11 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Node.js',
-        level: 8,
+        level: 4,
       },
       {
         name: 'Serverless api Using Lamda with graphql',
-        level: 8,
+        level: 4,
       },
     ],
   },
@@ -161,15 +161,15 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'S3 Bucket',
-        level: 10,
+        level: 8,
       },
       {
         name: 'Graphql',
-        level: 9,
+        level: 6,
       },
       {
         name: 'Cludformation / Amplify / Cognito / EC2 / Lamda',
-        level: 8,
+        level: 4,
       },
     ],
   },
@@ -196,7 +196,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'MongoDB / Mongoose / DynamoDB / SQL',
-        level: 10,
+        level: 5,
       },
     ],
   },
@@ -298,8 +298,19 @@ export const education: TimelineItem[] = [
 ];
 
 export const experience: TimelineItem[] = [
+   {
+    date: 'March 2025 - Present',
+    location: 'Randstad Digital (Client: Walmart) - Bengaluru',
+    title: 'Senior Software Engineer',
+    content: (
+      <p>
+          QA Automation With Node / React<br/>
+          Working on Mocha<br/>
+      </p>
+    ),
+  },
   {
-    date: 'Jun 2022 - Present',
+    date: 'Jun 2022 - Feb 2025',
     location: 'Bridgenext - Pune',
     title: 'Senior Software Development Engineer',
     content: (
@@ -401,8 +412,8 @@ export const contact: ContactSection = {
     },
     {
       type: ContactType.Location,
-      text: 'Gujarat, India',
-      href: 'https://maps.app.goo.gl/CLNy4fBCuZP6ZcpD9',
+      text: 'Bengaluru, KA',
+      href: '',
     },
     {
       type: ContactType.Instagram,
