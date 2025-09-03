@@ -65,7 +65,7 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a <strong className="text-stone-100">Senior Software Engineer</strong>,
-        <strong className="text-stone-100">Immediate Joiner</strong>
+        <strong className="text-stone-100"> Immediate Joiner</strong>
       </p>
       {/* <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
@@ -97,7 +97,7 @@ export const aboutData: About = {
   description: `Experienced developer with 7+ years of expertise in programming languages and software development frameworks, committed to continuous learning and delivering exceptional results.`,
   aboutItems: [
     {label: 'Current Location', text: 'Bengaluru, KA', Icon: MapIcon},
-    {label: 'Prefered Location', text: 'Gujarat, Pune, Banglore', Icon: MapIcon},
+    {label: 'Prefered Location', text: 'Gujarat, Pune, Bengaluru', Icon: MapIcon},
     // {label: 'Age', text: '29', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Indian / Hindu', Icon: FlagIcon},
     {label: 'Interests', text: 'Drawing, Learning, Travelling', Icon: SparklesIcon},
@@ -149,6 +149,24 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
+    name: 'Testing Automation',
+    skills: [
+      {
+        name: 'Cypress',
+        level: 10,
+      },
+    ],
+  },
+  {
+    name: 'Package Manager',
+    skills: [
+      {
+        name: 'NPM / Yarn / Gitlab / Github / Gitbash',
+        level: 10,
+      },
+    ],
+  },
+  {
     name: 'Backend development',
     skills: [
       {
@@ -179,29 +197,20 @@ export const skills: SkillGroup[] = [
     ],
   },
   {
-    name: 'Testing Automation',
-    skills: [
-      {
-        name: 'Cypress',
-        level: 10,
-      },
-    ],
-  },
-  {
-    name: 'Package Manager',
-    skills: [
-      {
-        name: 'NPM / Yarn / Gitlab / Github / Gitbash',
-        level: 10,
-      },
-    ],
-  },
-  {
     name: 'Database',
     skills: [
       {
         name: 'MongoDB / Mongoose / DynamoDB / SQL',
         level: 5,
+      },
+    ],
+  },
+  {
+    name: 'DevOps',
+    skills: [
+      {
+        name: 'Docker / Kubernetes / Helm / YAML/JSON Scripting / Azure ',
+        level: 4,
       },
     ],
   },
@@ -309,9 +318,9 @@ export const experience: TimelineItem[] = [
     title: 'Senior Software Engineer',
     content: (
       <p>
-          Collaborated with frontend developers working on React, Redux, JavaScript.<br/>
-          Ensured quality through automated testing using Cypress.<br/>
-	        Participated in Agile ceremonies including sprint planning, daily stand-ups, and retrospectives.<br/>
+          Collaborated with frontend developers working on <b>React, Redux, JavaScript</b>.<br/>
+          Ensured quality through automated testing using <b>Cypress</b>.<br/>
+	        Participated in <b>Agile ceremonies</b> including <b>sprint planning, daily stand-ups</b>, and retrospectives.<br/>
           Worked closely with product, frontend, and QA teams to triage React-related bugs and ensure timely resolutions.
       </p>
     ),
@@ -322,13 +331,13 @@ export const experience: TimelineItem[] = [
     title: 'Senior Software Development Engineer',
     content: (
       <p>
-          Built scalable frontend applications using React, Redux, JavaScript, and SCSS.<br/>
+          Built scalable frontend applications using <b>React, Redux, JavaScript</b>.<br/>
           Wrote custom Hooks and implemented reusable component patterns (HOC components).<br/>
-          Integrated REST APIs via Axios and Fetch with complete error/loading state handling.<br/>
-          Ensured quality through automated testing using Cypress.<br/>
-          Contributed to DevOps activities using Docker, Kubernetes (K8s), Helm, Argo CI/CD, and Azure. <br/>
-          Monitored clusters using Grafana and NewRelic, and automated YAML/JSON updates via CLI scripts<br/>
-          Participated in Agile ceremonies including sprint planning, daily stand-ups, and retrospectives.<br/>
+          Integrated REST APIs via <b>Axios and Fetch</b> with complete error/loading state handling.<br/>
+          Ensured quality through automated testing using <b>Cypress</b>.<br/>
+          Contributed to DevOps activities using <b>Docker, Kubernetes (K8s), Helm, Argo CI/CD, and Azure</b>. <br/>
+          Monitored clusters using <b>Grafana and NewRelic</b>, and automated YAML/JSON updates via CLI <b>scripts</b><br/>
+	        Participated in <b>Agile ceremonies</b> including <b>sprint planning, daily stand-ups</b>, and retrospectives.<br/>
           Collaborated with cross-functional teams and followed Scrum methodology.
       </p>
     ),
@@ -339,9 +348,9 @@ export const experience: TimelineItem[] = [
     title: 'Frontend Developer',
     content: (
       <p>
-        Developed frontend applications using React, Redux , JavaScript.<br/>
-        Managed form state and validations using custom Hooks.<br/>
-        Integrated dynamic APIs for live content and built responsive UIs using SCSS and Bootstrap.<br/>
+        Developed frontend applications using <b>React, Redux , JavaScript</b>.<br/>
+        Managed form state and validations using <b>custom Hooks</b>.<br/>
+        Integrated dynamic APIs for live content and built responsive UIs using <b>SCSS and Bootstrap</b>.<br/>
         Participated in client meetings and sprint reviews for feature finalization.<br/>
       </p>
     ),
@@ -355,7 +364,7 @@ export const experience: TimelineItem[] = [
         Develop webapp individual and with team<br/>
         Coordinate with team members and client<br/>
         Team Lead, Project management<br/>
-        Worked on Reactjs, Nodejs, AWS, MaterialUI, SCSS
+        Worked on <b>Reactjs, Nodejs, AWS, MaterialUI, SCSS.</b>
       </p>
     ),
   },
@@ -367,7 +376,7 @@ export const experience: TimelineItem[] = [
       <p>
         Develop webapp individual and with team<br/>
         Do Manual Testing<br/>
-        Worked on PHP, HTML, CSS, Javascript, Ajax, Nodejs
+        Worked on <b>PHP, HTML, CSS, Javascript, Ajax, Nodejs</b>
       </p>
     ),
   },
