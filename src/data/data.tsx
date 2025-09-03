@@ -64,8 +64,8 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a <strong className="text-stone-100">Senior Software Engineer</strong>, currently working
-        at <strong className="text-stone-100">Randstad Digital (Client: Walmart)</strong>
+        I'm a <strong className="text-stone-100">Senior Software Engineer</strong>,
+        <strong className="text-stone-100">Immediate Joiner</strong>
       </p>
       {/* <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time time, you can catch me training in <strong className="text-stone-100">Muay Thai</strong>,
@@ -94,14 +94,15 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Experienced developer with 6+ years of expertise in programming languages and software development frameworks, committed to continuous learning and delivering exceptional results.`,
+  description: `Experienced developer with 7+ years of expertise in programming languages and software development frameworks, committed to continuous learning and delivering exceptional results.`,
   aboutItems: [
-    {label: 'Location', text: 'Bengaluru, KA', Icon: MapIcon},
+    {label: 'Current Location', text: 'Bengaluru, KA', Icon: MapIcon},
+    {label: 'Prefered Location', text: 'Gujarat, Pune, Banglore', Icon: MapIcon},
     // {label: 'Age', text: '29', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Indian / Hindu', Icon: FlagIcon},
     {label: 'Interests', text: 'Drawing, Learning, Travelling', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Uka Tarsadia', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Randstad Digital (Client: Walmart)', Icon: BuildingOffice2Icon},
+    {label: 'Last Employment', text: 'Randstad Digital (Client: Walmart)', Icon: BuildingOffice2Icon},
   ],
 };
 
@@ -114,7 +115,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'English',
-        level: 9,
+        level: 7,
       },
       {
         name: 'Gujarati',
@@ -134,12 +135,16 @@ export const skills: SkillGroup[] = [
         level: 10,
       },
       {
-        name: 'Typescript / Javascript / jQuery',
+        name: 'Javascript',
         level: 10,
+      },{
+        name: 'Typescript',
+        level: 5,
       },
+
       {
         name: 'Bootstrap / CSS / SCSS / MaterialUI',
-        level: 10,
+        level: 6,
       },
     ],
   },
@@ -161,7 +166,7 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'S3 Bucket',
-        level: 8,
+        level: 6,
       },
       {
         name: 'Graphql',
@@ -299,13 +304,15 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
    {
-    date: 'March 2025 - Present',
+    date: 'March 2025 - May 2025',
     location: 'Randstad Digital (Client: Walmart) - Bengaluru',
     title: 'Senior Software Engineer',
     content: (
       <p>
-          QA Automation With Node / React<br/>
-          Working on Mocha<br/>
+          Collaborated with frontend developers working on React, Redux, JavaScript.<br/>
+          Ensured quality through automated testing using Cypress.<br/>
+	        Participated in Agile ceremonies including sprint planning, daily stand-ups, and retrospectives.<br/>
+          Worked closely with product, frontend, and QA teams to triage React-related bugs and ensure timely resolutions.
       </p>
     ),
   },
@@ -315,10 +322,14 @@ export const experience: TimelineItem[] = [
     title: 'Senior Software Development Engineer',
     content: (
       <p>
-          Full time frontend developer (backend if needed)<br/>
-          Working on Reactjs typescript, Graphql, Cypress, NewRelic, Lens<br/>
-          Working with external and internal API<br/>
-          Coordinate with team members and client
+          Built scalable frontend applications using React, Redux, JavaScript, and SCSS.<br/>
+          Wrote custom Hooks and implemented reusable component patterns (HOC components).<br/>
+          Integrated REST APIs via Axios and Fetch with complete error/loading state handling.<br/>
+          Ensured quality through automated testing using Cypress.<br/>
+          Contributed to DevOps activities using Docker, Kubernetes (K8s), Helm, Argo CI/CD, and Azure. <br/>
+          Monitored clusters using Grafana and NewRelic, and automated YAML/JSON updates via CLI scripts<br/>
+          Participated in Agile ceremonies including sprint planning, daily stand-ups, and retrospectives.<br/>
+          Collaborated with cross-functional teams and followed Scrum methodology.
       </p>
     ),
   },
@@ -328,12 +339,10 @@ export const experience: TimelineItem[] = [
     title: 'Frontend Developer',
     content: (
       <p>
-        Develop webapp<br/>
-        Worked on Reactjs , javascript, CSS, Bootstrap<br/>
-        Client relations by zoom call and making orders<br/>
-        Software installation<br/>
-        Technical support of software<br/>
-        Writing and supporting web-sites
+        Developed frontend applications using React, Redux , JavaScript.<br/>
+        Managed form state and validations using custom Hooks.<br/>
+        Integrated dynamic APIs for live content and built responsive UIs using SCSS and Bootstrap.<br/>
+        Participated in client meetings and sprint reviews for feature finalization.<br/>
       </p>
     ),
   },
