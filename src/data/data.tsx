@@ -209,7 +209,7 @@ export const skills: SkillGroup[] = [
     name: 'DevOps',
     skills: [
       {
-        name: 'Docker / Kubernetes / Helm / YAML/JSON Scripting / Azure ',
+        name: 'Docker / Kubernetes / Helm / Scripting / Azure ',
         level: 4,
       },
     ],
